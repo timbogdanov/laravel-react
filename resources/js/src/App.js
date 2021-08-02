@@ -17,12 +17,15 @@ const App = () => {
           <li>
             <Link to="/dashboard">Dashboard</Link>
           </li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
         </ul>
       
     
       <Switch>
         <Route exact path="/">
-          <Dashboard />
+
         </Route>
 
         <Route exact path="/dashboard">
